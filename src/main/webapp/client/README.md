@@ -18,17 +18,7 @@
 ## Usage
 **Development**
 
-`npm run start-dev`
-
-* Build app continuously (HMR enabled)
-* App served @ `http://localhost:8080`
-
-**Production**
-
-`npm run start-prod`
-
-* Build app once (HMR disabled) to `/dist/`
-* App served @ `http://localhost:3000`
+For development, you need start backend first. After that you can make `npm run serve` and looking for `http://localhost:8000`
 
 ---
 
@@ -36,13 +26,11 @@
 
 Command | Description
 --- | ---
-`npm run start-dev` | Build app continuously (HMR enabled) and serve @ `http://localhost:8080`
-`npm run start-prod` | Build app once (HMR disabled) to `/dist/` and serve @ `http://localhost:3000`
-`npm run build` | Build app to `/dist/`
+`npm run build` | Build app to `../dist/`
 `npm run test` | Run tests
 `npm run lint` | Run linter
 `npm run lint --fix` | Run linter and fix issues
-`npm run start` | (alias of `npm run start-dev`)
+`npm run serve` | Build app once to `../dist/`. If backend was started you can see result in `http://localhost:8000`
 
 **Note**: replace `npm` with `npm` in `package.json` if you use npm.
 
