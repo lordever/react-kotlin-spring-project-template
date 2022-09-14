@@ -14,6 +14,8 @@ Please rate via stars so that the project is seen as much as possible
 
 ## Frontend 
 
+More about client side you can read [here](./src/main/webapp/client/README.md#usage) 
+
 1. Make `npm install` in directory `./src/main/webpapp/client`
 2. Run `npm run serve` command from this directory
 3. You'll see successfully message and look forward web page by navigation to `http://localhost:8080`
